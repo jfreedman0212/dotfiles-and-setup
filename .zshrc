@@ -6,9 +6,11 @@ precmd() {
 export PROMPT="%F{blue}->%f "
 # fnm config (to use specific node versions)
 eval "$(fnm env --use-on-cd)"
+# rust config
+source ~/.cargo/env
 # editor config
 export EDITOR=vim
 # fun aliases to make my life easier
-alias ll='ls -alF'
-alias ls='ls -h --color=auto'
+alias ll='ls -al'
+alias ls='ls -Fh --color=auto'
 
