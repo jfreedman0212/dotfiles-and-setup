@@ -8,6 +8,7 @@ brew install --cask rectangle
 brew install --cask discord
 brew install --cask visual-studio-code
 brew install fnm
+brew install hugo
 
 echo 'Installing Docker Desktop'
 wget https://desktop.docker.com/mac/main/amd64/Docker.dmg
