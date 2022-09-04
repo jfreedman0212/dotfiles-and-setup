@@ -11,6 +11,7 @@ brew install fnm
 brew install hugo
 brew install colima
 brew install docker
+brew install docker-compose
 
 echo 'Installing and running rustup'
 # -y turns off interactive mode
