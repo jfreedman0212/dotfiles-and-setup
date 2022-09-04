@@ -9,12 +9,8 @@ brew install --cask discord
 brew install --cask visual-studio-code
 brew install fnm
 brew install hugo
-
-echo 'Installing Docker Desktop'
-wget https://desktop.docker.com/mac/main/amd64/Docker.dmg
-sudo hdiutil attach Docker.dmg
-sudo /Volumes/Docker/Docker.app/Contents/MacOS/install --accept-license
-sudo hdiutil detach /Volumes/Docker
+brew install colima
+brew install docker
 
 echo 'Installing and running rustup'
 # -y turns off interactive mode
