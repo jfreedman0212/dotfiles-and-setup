@@ -1,0 +1,7 @@
+[user]
+  name = Josh Freedman
+  email = josh@freedman.dev
+[core]
+  editor = vim
+[pull]
+  rebase = true\
